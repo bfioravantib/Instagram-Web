@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container_navbar {
+    width: 2000px;
+    height: 60px;
+    background-color: #ffffff;
+    border-bottom: 0.5px solid;
+    border-bottom-color: #d1d1d1;
+}
+
+.logo {
+    position: relative;
+    top: -112px;
+    left: 490px;
+    display: inline-block;
+    margin-top: 10px;
+
+} 
+
+.busca {
+    -webkit-appearance: none;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    position: relative;
+    background: rgba(var(--bb2,239,239,239),1);
+    top: -125px;
+    left: 699px;
+    border-radius: 8px;
+    border: 0;
+    font-size: 16px;
+    padding: 3px 16x;
+    height: 65%;
+    width: 13%;
+}
+
+.lupa {
+    top: -123px;
+    left: 454px;
+    position: relative;
+}
+
+.busca::placeholder {
+    position: relative;
+    left: 50px;
+}
+
+.navbar_home {
+    position: relative;
+    left: 800px;
+    top: 5px;
+    color: #262626;
+    display: inline-block;
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.navbar_messenger {
+    position: relative;
+    left: 825px;
+    top: 5px;
+    color: #262626;
+    display: inline-block;
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.navbar_add {
+    position: relative;
+    left: 850px;
+    top: 5px;
+    color: #262626;
+    display: inline-block;
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.navbar_find {
+    position: relative;
+    left: 875px;
+    top: 5px;
+    color: #262626;
+    display: inline-block;
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.navbar_like {
+    position: relative;
+    left: 900px;
+    top: 5px;
+    color: #262626;
+    display: inline-block;
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.navbar_home:hover {
+  
+}
+
+.navbar_messenger:hover {
+    
+}
+
+.navbar_add:hover {
+   
+}
+
+.navbar_find:hover {
+   
+}
+
+.navbar_like {
+    
+}
+
+.perfil_min {
+    position: relative;
+    left: 923px;
+    top: -117px;
+    width: 30px;
+    border-radius: 50%;
+}
