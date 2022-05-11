@@ -16,3 +16,26 @@
     border: 0.5px solid;
     border-color: #d1d1d1;
 }
+
+.borda_imagem {
+    position: absolute;
+    width: 10%;
+    top: 25px;
+    left: 25px;
+}
+
+.storie_imagem {
+    position: absolute;
+    width: 9%;
+    top: 28px;
+    left: 28px;
+    border-radius: 50%;
+}
+
+.nome_storie {
+    position: absolute;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    top: 90px;
+    left: 25px;
+    font-size: smaller;
+}
