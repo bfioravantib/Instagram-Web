@@ -1,0 +1,27 @@
+.perfil_lateral {
+    position: fixed;
+    left: 1125px;
+    top: 108px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.nome_usuario {
+    position: fixed;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    text-overflow: ellipsis;
+    text-transform: inherit;
+    color: rgba(var(--f75,38,38,38),1);
+    left: 1239px;
+    top: 126px;
+}
+
+.nome_perfil {
+    position: fixed;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    text-overflow: ellipsis;
+    text-transform: inherit;
+    color: #a8a8a8;
+    left: 1239px;
+    top: 145px;
+}

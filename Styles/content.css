@@ -7,12 +7,137 @@
 .container_content {
     position: relative;
     left: 480px;
-    top: 26px;
+    top: 50px;
     width: 610px;
-    height: 700px;
+    height: 850px;
     background-color: #aa3c3c;
     border-radius: 3px;
     background-color: #ffffff;
     border: 0.5px solid;
     border-color: #d1d1d1;
+}
+
+.perfil_content {
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.titulo {
+    position: absolute;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    text-overflow: ellipsis;
+    text-transform: inherit;
+    color: rgba(var(--f75,38,38,38),1);
+    top: 13px;
+    left: 71px;
+}
+
+.subtitulo {
+    position: absolute;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    text-overflow: ellipsis;
+    text-transform: inherit;
+    color: #a8a8a8;
+    top: 28px;
+    left: 71px;
+}
+
+.menu {
+    position: absolute;
+    left: 565px;
+    top: 11px;
+}
+
+.foto {
+    position: absolute;
+    width: 100%;
+    top: 65px;
+}
+
+.like {
+    position: absolute;
+    top: 690px;
+    left: 20px;
+}
+
+.comment {
+    position: absolute;
+    top: 690px;
+    left: 60px;
+}
+
+.encaminhar {
+    position: absolute;
+    top: 690px;
+    left: 100px;
+}
+
+.save {
+    position: absolute;
+    top: 690px;
+    left: 570px;
+}
+
+.comentario {
+    position: absolute;
+    background-color: #ffffff;
+    border-top: 0.5px solid;
+    border-top-color: #d1d1d1;
+    bottom: 0px;
+    width: 608px;
+    height: 50px;
+}
+
+.emoji {
+    position: relative;
+    top: 15px;
+    left: 22px;
+}
+
+.caixa_comentario {
+    position: relative;
+    border: none;
+    top: 10px;
+    left: 45px;
+    font-size: 15px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+.botao_enviar {
+    position: relative;
+    border: none;
+    top: 9px;
+    left: 332px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #2b38e9;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: medium;
+    background-color: none;
+    background-color: #FFFFFF;
+}
+
+.num_curtidas {
+    position: absolute;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    text-overflow: ellipsis;
+    text-transform: inherit;
+    color: rgba(var(--f75,38,38,38),1);
+    top: 736px;
+    left: 25px;
+}
+
+.tempo {
+    position: absolute;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    text-overflow: ellipsis;
+    text-transform: inherit;
+    color: rgba(var(--f75,38,38,38),1);
+    top: 760px;
+    left: 25px;
+    text-decoration: wavy;
+    color: #a8a8a8;
 }
